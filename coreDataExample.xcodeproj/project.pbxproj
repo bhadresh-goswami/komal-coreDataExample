@@ -13,6 +13,7 @@
 		03253B5021B512DF0000832D /* coreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03253B4E21B512DF0000832D /* coreDataExample.xcdatamodeld */; };
 		03253B5221B512E00000832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03253B5121B512E00000832D /* Assets.xcassets */; };
 		03253B5521B512E00000832D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03253B5321B512E00000832D /* LaunchScreen.storyboard */; };
+		03F527BA21B51E9C00315469 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F527B921B51E9C00315469 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		03253B5121B512E00000832D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03253B5421B512E00000832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03253B5621B512E10000832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F527B921B51E9C00315469 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F527BA21B51E9C00315469 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				03253B4621B512D70000832D /* coreDataExample */,
 				03253B4521B512D70000832D /* Products */,
+				03F527B821B51E9B00315469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				03253B4E21B512DF0000832D /* coreDataExample.xcdatamodeld */,
 			);
 			path = coreDataExample;
+			sourceTree = "<group>";
+		};
+		03F527B821B51E9B00315469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F527B921B51E9C00315469 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
